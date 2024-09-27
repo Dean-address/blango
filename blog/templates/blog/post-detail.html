@@ -12,7 +12,7 @@
     {{ post.content|safe}}
   {% endcol %}
 {% row %}
-
+{% include "blog/post-comments.html" %}
 {% row %}
   {% col %}
     {% recent_posts post %}
